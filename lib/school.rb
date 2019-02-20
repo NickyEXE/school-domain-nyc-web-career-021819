@@ -21,6 +21,7 @@ class School (name)
     newroster ={}
     @roster.each do |grade, students|
       newroster[grade] = students
+    end
     @roster = newroster
   end
 end
